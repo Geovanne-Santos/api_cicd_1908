@@ -1,7 +1,5 @@
 const math = require("../index.js")
 
-console.log(math.add(1 + 1))
-
 test("Soma 5 + 10 igual a 15", () => {
     expect(math.add(5, 10)).toBe(15);
 });
